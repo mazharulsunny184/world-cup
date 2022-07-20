@@ -1,0 +1,160 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap');
+
+body {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 6vw;
+}
+
+
+.top-banner-item {
+    display: flex;
+    background-color: #161616;
+
+
+}
+
+.top-banner-item .split {
+    width: 50%;
+    color: white;
+}
+
+.split img {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 28px;
+    margin-left: -47px;
+}
+
+#text {
+    padding-top: 50px;
+    padding-left: 106px;
+
+}
+
+.top-banner-item .split>p {
+    margin-top: -71px;
+
+
+}
+
+.top-banner-button {
+    background-color: red;
+    padding: 16px 25px;
+    color: white;
+}
+
+@media only screen and (max-width:688px) {
+    .top-banner-item {
+        flex-direction: column;
+    }
+
+    .top-banner-item .split,
+    .container {
+        width: 100%;
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+.fa-solid {
+    padding-left: 5px;
+
+}
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 60px;
+}
+
+
+.match {
+    border: .3px solid rgb(197, 177, 177);
+    border-radius: 15px;
+}
+
+.match img {
+    width: 100%;
+}
+
+.match-text {
+    padding: 20px;
+}
+
+.match-button {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.footer {
+    background-color: #161616;
+    color: white;
+}
+
+.footer-headding {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.hr {
+    width: 80%;
+}
+
+.footer .social {
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+
+}
+
+.footer .social a {
+    font-size: 16px;
+    color: inherit;
+    font-size: xx-large;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 8px;
+    opacity: 0.7;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    opacity: .8;
+    padding: 0px 10px;
+}
